@@ -66,7 +66,7 @@ app.delete("/todos/:id", async (req, res) => {
     } catch (error) {
         console.error(error.message);
     }
-})
+});
 
 app.listen(5000, () => {
     console.log("server has started on port 5000");
